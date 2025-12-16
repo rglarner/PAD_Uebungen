@@ -1,4 +1,4 @@
-# AB1 (Projektname: StringsUndZahlen)
+# AB1 (Projektname: AB1_StringsUndZahlen)
 ## Übung 1 – Begrüssungsnachricht formatieren
 **Thema:** Zeichenketten (Strings), Verkettung, einfache Variablen
 
