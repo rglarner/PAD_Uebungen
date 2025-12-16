@@ -1,4 +1,4 @@
-﻿namespace StringsUndZahlen
+﻿namespace AB1_StringsUndZahlen
 {
     internal class Program
     {
