@@ -1,5 +1,8 @@
 <Solution>
   <Project Path="AB1/AB1_StringsUndZahlen/AB1_StringsUndZahlen.csproj" />
+  <Project Path="AB2/AB2_Strings1/AB2_Strings1/AB2_Strings1.csproj" Id="db1f5598-6367-41d6-b18a-a539ec27db98" />
+  <Project Path="AB2/AB2_Strings2/AB2_Strings2/AB2_Strings2.csproj" Id="f230fe80-1608-4a01-b32a-8f67b17132d6" />
+  <Project Path="AB2/AB2_Strings3/AB2_Strings3/AB2_Strings3.csproj" Id="ff6c3f40-dcdb-4a0b-8488-d80a1a829922" />
   <Project Path="AB2/AB2_Zahlen1/AB2_Zahlen1.csproj" Id="1bb636e0-d785-46e7-8950-d0ea440e238d" />
   <Project Path="AB2/AB2_Zahlen2/AB2_Zahlen2.csproj" Id="e94421ba-397c-4005-bf69-4df3a6a0ba4e" />
   <Project Path="AB2/AB2_Zahlen3/AB2_Zahlen3.csproj" Id="d5fc410d-c8f9-44e5-a842-1a7efb050645" />

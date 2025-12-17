@@ -17,3 +17,14 @@ Dieses Repository enthält Übungen zum Modul PAD in C#. Es ist als Zusatzmaterial
 ## Übung 3 – Rekursion: Quersumme oder Potenz
 **Thema:** echte Rekursion sichtbar (Selbstaufruf) + Basisfall
 
+# AB2 (Projektname: AB2_Strings1)
+## Übung 4 – Strings: Vokale zählen
+**Thema:** Schleifen über Zeichenketten und Methoden mit Rückgabewert.
+
+# AB2 (Projektname: AB2_Strings2)
+## Übung 5 – Strings: Passwortprüfung
+**Thema:** Validierungsschleifen und kombinierte Bedingungen.
+
+# AB2 (Projektname: AB2_Strings3)
+## Übung 6 – Rekursion: Palindrom
+**Thema:** Rekursion mit Zeichenketten.

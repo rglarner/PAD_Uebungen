@@ -95,3 +95,66 @@ static int Power(int basis, int exponent)
 ## Vorgaben
 - Wählen Sie eine Variante
 - Rekursion muss klar sichtbar sein
+
+# Übung 4 – Strings: Vokale zählen
+Projektname: AB2_Strings1
+## Ziel
+Schleifen über Zeichenketten und Methoden mit Rückgabewert.
+
+## Auftrag
+```csharp
+static int ZähleVokale(string text)
+```
+
+Zählt die Vokale `a e i o u` (Gross- und Kleinbuchstaben).
+
+## Beispiele
+- CountVowels("Hallo") -> 2
+- CountVowels("Programmieren") -> 4
+
+## Erweiterung (optional)
+- ZähleZiffern
+- Zähle Leerschläge
+
+# Übung 5 – Strings: Passwortprüfung
+Projektname: AB2_Strings2
+## Ziel
+Validierungsschleifen und kombinierte Bedingungen.
+
+## Auftrag
+```csharp
+static bool IsValidPassword(string password)
+```
+
+Ein Passwort ist gültig, wenn:
+
+- mindestens 8 Zeichen
+- mindestens eine Ziffer
+- mindestens ein Grossbuchstabe
+
+Das Hauptprogramm fragt so lange, bis das Passwort gültig ist.
+
+## Erweiterung (optional)
+- Maximal 3 Versuche erlauben
+- Spezielle Zeichen erforderlich
+- Ausgabe der Fehlerursachen
+
+# Übung 6 – Strings: Rekursion – Palindrom
+Projektname: AB2_Strings3
+## Ziel
+Rekursion mit Zeichenketten.
+
+## Auftrag
+```csharp
+static bool IsPalindrome(string text)
+```
+
+## Regeln
+- Basisfall: Länge 0 oder 1 → true
+- Ungleiches erstes/letztes Zeichen → false
+- Sonst rekursiv inneren Teil prüfen
+
+## Beispiele
+- lagerregal → true
+- otto → true
+- hello → false
