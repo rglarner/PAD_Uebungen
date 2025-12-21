@@ -7,4 +7,5 @@
   <Project Path="AB2/AB2_Zahlen2/AB2_Zahlen2.csproj" Id="e94421ba-397c-4005-bf69-4df3a6a0ba4e" />
   <Project Path="AB2/AB2_Zahlen3/AB2_Zahlen3.csproj" Id="d5fc410d-c8f9-44e5-a842-1a7efb050645" />
   <Project Path="AB4/AB4_Array2D/AB4_Array2D.csproj" Id="56b538f0-106e-40a8-b91f-be66edafbcd0" />
+  <Project Path="AB4/AB4_ChatList/AB4_ChatList.csproj" Id="f33c8370-ae13-493e-a8cd-e4c73c7d10a7" />
 </Solution>

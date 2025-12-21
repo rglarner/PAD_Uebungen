@@ -28,3 +28,11 @@ Dieses Repository enthält Übungen zum Modul PAD in C#. Es ist als Zusatzmaterial
 # AB2 (Projektname: AB2_Strings3)
 ## Übung 6 – Rekursion: Palindrom
 **Thema:** Rekursion mit Zeichenketten.
+
+# AB4 (Projektname: AB4_Array2D)
+## Übung 7 – 2D-Array: Zeichenfläche mit Figuren
+**Thema:** Datenstrukturen (2D-Array) und Methoden mit mehreren Parametern.
+
+# AB8 (Projektname: AB4_ChatList)
+## Übung 8 - List<T>: Chatlog
+**Thema:** Datenstrukturen (List<T>) und Methoden mit Rückgabewerten.
