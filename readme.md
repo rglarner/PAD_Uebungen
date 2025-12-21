@@ -33,6 +33,10 @@ Dieses Repository enthält Übungen zum Modul PAD in C#. Es ist als Zusatzmaterial
 ## Übung 7 – 2D-Array: Zeichenfläche mit Figuren
 **Thema:** Datenstrukturen (2D-Array) und Methoden mit mehreren Parametern.
 
-# AB8 (Projektname: AB4_ChatList)
+# AB4 (Projektname: AB4_ChatList)
 ## Übung 8 - List<T>: Chatlog
 **Thema:** Datenstrukturen (List<T>) und Methoden mit Rückgabewerten.
+
+# AB4 (Projektname: AB4_FIFO_Helpdesk)
+## Übung 9 - FIFO Helpdesk mit Queue und record/struct
+**Thema:** Datenstrukturen (Queue) und benutzerdefinierte Datentypen (record/struct).

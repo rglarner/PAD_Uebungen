@@ -116,3 +116,65 @@ Implementiere:
 - Doppelte Nachrichten entfernen (Spam)
 - Maximale Chatlänge (älteste entfernen, wenn > X)
 
+# Übung 9 – FIFO Helpdesk mit Queue und record/struct
+
+## Ziel
+Ein Helpdesk-System verwaltet Supportfälle und bearbeitet diese **in der Reihenfolge ihres Eingangs (FIFO)**.  
+Jeder Fall besitzt eine Beschreibung und einen geschätzten Bearbeitungsaufwand.
+
+## Datenmodell
+Erstellen Sie einen eigenen Datentyp `Fall` als `record` oder `struct` mit:
+- `string Beschreibung`
+- `int AufwandMinuten`
+
+## Datenstruktur
+- Verwenden Sie `Queue<Fall>` zur Verwaltung der offenen Fälle.
+
+## Anforderungen
+
+### 1) Neuen Fall erfassen
+Implementieren Sie:
+
+`NeuenFallErfassen(Queue<Fall> backlog, string beschreibung, int aufwandMinuten)`
+
+- Fügt einen neuen Fall zur Queue hinzu.
+- Der Aufwand muss grösser als 0 sein, ansonsten erfolgt eine Fehlermeldung.
+
+### 2) Nächsten Fall bearbeiten
+Implementieren Sie:
+
+`NaechstenFallBearbeiten(Queue<Fall> backlog)`
+
+- Bearbeitet den nächsten Fall aus der Queue.
+- Gibt aus, welcher Fall bearbeitet wurde.
+- Falls keine Fälle offen sind, wird eine entsprechende Meldung ausgegeben.
+
+### 3) Anzahl offener Fälle anzeigen
+Implementieren Sie:
+
+`OffeneFaelleAnzeigen(Queue<Fall> backlog)`
+
+- Gibt die Anzahl der aktuell offenen Fälle aus.
+
+### 4) Gesamtaufwand anzeigen
+Implementieren Sie:
+
+`GesamtaufwandAnzeigen(Queue<Fall> backlog)`
+
+- Berechnet und zeigt die Summe der AufwandMinuten aller offenen Fälle an.
+- Die Queue darf dabei nicht verändert werden.
+
+### 5) TOP-Ansicht anzeigen
+Implementieren Sie:
+
+`TopFaelleAnzeigen(Queue<Fall> backlog, int anzahl)`
+
+- Gibt die nächsten `anzahl` offenen Fälle in Bearbeitungsreihenfolge aus.
+- Die Queue darf dabei nicht verändert werden.
+
+## Minimaler Ablauf (Demo im `Main`)
+1. Erfassen Sie mindestens 5 neue Fälle.
+2. Zeigen Sie die Anzahl offener Fälle und den Gesamtaufwand an.
+3. Geben Sie die nächsten 3 Fälle (TOP 3) aus.
+4. Bearbeiten Sie zwei Fälle.
+5. Zeigen Sie erneut Anzahl, Gesamtaufwand und TOP-Ansicht an.
