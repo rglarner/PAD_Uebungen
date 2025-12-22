@@ -40,3 +40,11 @@ Dieses Repository enthält Übungen zum Modul PAD in C#. Es ist als Zusatzmaterial
 # AB4 (Projektname: AB4_FIFO_Helpdesk)
 ## Übung 9 - FIFO Helpdesk mit Queue und record/struct
 **Thema:** Datenstrukturen (Queue) und benutzerdefinierte Datentypen (record/struct).
+
+# AB5 (Projektname: AB5_InsertionSort)
+## Übung 10 - Insertion Sort
+**Thema:** Sortieralgorithmus (Insertion Sort) für ein Array von Ganzzahlen.
+
+# AB5 (Projektname: AB5_SelectionSort)
+## Übung 11 - Selection Sort
+**Thema:** Sortieralgorithmus (Selection Sort) für ein Array von Zeichenketten.

@@ -9,4 +9,6 @@
   <Project Path="AB4/AB4_Array2D/AB4_Array2D.csproj" Id="56b538f0-106e-40a8-b91f-be66edafbcd0" />
   <Project Path="AB4/AB4_ChatList/AB4_ChatList.csproj" Id="f33c8370-ae13-493e-a8cd-e4c73c7d10a7" />
   <Project Path="AB4/AB4_FIFO_Helpdesk/AB4_FIFO_Helpdesk.csproj" Id="9fd21d8b-db81-40ef-8199-0d1fb2805c57" />
+  <Project Path="AB5/AB5_InsertionSort/AB5_InsertionSort.csproj" Id="d108bfb1-ff09-45c5-8713-f5fce7b47056" />
+  <Project Path="AB5/AB5_SelectionSort/AB5_SelectionSort.csproj" Id="110af856-262e-4e1b-88b8-46bccf522237" />
 </Solution>
